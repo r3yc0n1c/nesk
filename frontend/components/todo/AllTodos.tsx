@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { BentoGrid, BentoGridItem } from '../ui/bento-grid'
-import { Flower, ArrowBigUpDash, ArrowBigLeftDash, Clipboard, FileBadge, TableIcon, Sigma } from 'lucide-react'
+import { ArrowBigUpDash, ArrowBigLeftDash, Clipboard, FileBadge, TableIcon, Sigma } from 'lucide-react'
 
 
 const Skeleton = () => (

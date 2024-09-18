@@ -1,6 +1,6 @@
 'use client'
 
-import { FanIcon, Folders, House, Rabbit, Rainbow, SquareCheckBig, SquareMinus, Squircle, UsersRound } from 'lucide-react'
+import { Folders, House, Rabbit, SquareCheckBig, SquareMinus, UsersRound } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
@@ -43,7 +43,7 @@ const Menu = () => {
             </div>
             <div className='mt-8 flex flex-col gap-8'>
                 {MenuItems.map((item, idx) => {
-                    return <div key={'menuitem_' + idx} className={`flex gap-4 p-2 rounded ${currPath === item.link && 'active'}`}>
+                    return <div key={`menuitem_${idx}`} className={`flex gap-4 p-2 rounded ${currPath === item.link && 'active'}`}>
                         <div>{item.icon}</div>
                         <div className='font-semibold'>{item.title}</div>
                     </div>

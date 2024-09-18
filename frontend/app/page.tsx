@@ -2,7 +2,6 @@ import Menu from "@/components/menu/Menu";
 import Navbar from "@/components/navbar/Navbar";
 import Todo from "@/components/todo/Todo";
 import { Separator } from "@/components/ui/separator";
-import Image from "next/image";
 
 export default function Home() {
     return <main className="w-full h-screen flex">
