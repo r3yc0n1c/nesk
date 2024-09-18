@@ -1,2 +1,7 @@
 # next-task
-Simple TODO app with CRUD
+Your goto TODO app with CRUD
+
+## Demo
+
+![Todo Page](./demo/todo.png)
+
